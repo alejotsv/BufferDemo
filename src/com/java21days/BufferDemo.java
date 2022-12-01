@@ -11,5 +11,9 @@ public class BufferDemo {
             start = Integer.parseInt(args[0]);
         }
         ArgStream as = new ArgStream(start, finish);
+        System.out.println("\nWriting: ");
+        boolean success = as.writeStream();
+        System.out.println("\nReading: ");
+        boolean readSuccess = as.readStream();
     }
 }

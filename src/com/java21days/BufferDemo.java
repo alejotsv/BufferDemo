@@ -10,5 +10,6 @@ public class BufferDemo {
         } else if(args.length > 0){
             start = Integer.parseInt(args[0]);
         }
+        ArgStream as = new ArgStream(start, finish);
     }
 }

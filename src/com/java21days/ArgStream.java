@@ -22,6 +22,7 @@ public class ArgStream {
                 System.out.println(" " + out);
             }
             buff.close();
+
             return true;
         } catch (IOException e){
             System.out.println("Exception: " + e.getMessage());
